@@ -1,8 +1,6 @@
 import faiss
 import h5py
 import numpy as np
-import os
-import requests
 
 def evaluate_hnsw():
     dataset_path = "sift-128-euclidean.hdf5"
